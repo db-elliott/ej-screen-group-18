@@ -27,5 +27,7 @@ ggplot(ces,
        aes(x = white_percent,
            y = ces_3_0_score)) +
   geom_hex() +
-  labs(x = "% White", y = "Pollution Burden Score")
+  labs(x = "% White", y = "Pollution Burden Score") +
+  scale_fill_gradient(low = "darkseagreen1", high = "darkseagreen4") +
+  theme_minimal()
 ```

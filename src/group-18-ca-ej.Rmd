@@ -26,5 +26,6 @@ Create basic scatterplot graph showing % white versus CES pollution burden
 ggplot(ces,
        aes(x = white_percent,
            y = ces_3_0_score)) +
-  geom_point()
+  geom_hex() +
+  labs(x = "% White", y = "Pollution Burden Score")
 ```

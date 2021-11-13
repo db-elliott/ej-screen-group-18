@@ -31,3 +31,7 @@ ggplot(ces,
   scale_fill_gradient(low = "darkseagreen1", high = "darkseagreen4") +
   theme_minimal()
 ```
+
+**Figure 1. CalEnviroScreen 3.0 score versus percentage white residents.** The CalEnviroScreen 3.0 is a tool, developed by the California Environmental Protection Agency and the Office of Environmental Health Hazard Assessment, which calculates the cumulative pollution burden on a community. The score is based on factors such as pollution exposures, environmental effects, population sensitivity to pollution, and socioeconomic factors. This graph shows the CalEnviroScreen 3.0 score based on the percentage of white residents in communities across California.
+
+

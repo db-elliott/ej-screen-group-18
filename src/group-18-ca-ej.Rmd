@@ -21,3 +21,10 @@ ces <- read_csv(here("data", "ces3demographics.csv")) %>%
   clean_names()
 ```
 
+Create basic scatterplot graph showing % white versus CES pollution burden
+```{r}
+ggplot(ces,
+       aes(x = white_percent,
+           y = ces_3_0_score)) +
+  geom_point()
+```
